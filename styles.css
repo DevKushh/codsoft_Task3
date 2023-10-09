@@ -1,0 +1,73 @@
+h1 /* Heading design */
+{
+    font-family: cursive;
+    color: #052e5a ;
+    padding-left: 10px;
+    
+}
+body /* Full Page Body design */
+{
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to bottom, #0e063ace, #11485eb4);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+}
+
+.calculator /* The calculator box design */
+{
+    background-color: #c3ccec;
+    background: linear-gradient();
+    border-radius: 5%;
+    box-shadow: 30px 25px 25px rgba(0, 0, 0, 0.2);
+}
+
+.display /* Result/Display bar design */
+{
+    text-align: right;
+    font-family: cursive;
+    background-color: #c3ccec;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-sizing: content-box;
+    max-width: 100%;
+    overflow: hidden; 
+    white-space: nowrap;
+}
+
+#display /* Display/Result bar text design */
+{
+    width: 100%;
+    font-family: cursive;
+    border: 5p;
+    font-size: 20px;
+    padding: 5px;
+    outline: none;
+}
+
+.buttons /* number/symbols button design */
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 10px;
+}
+
+button /* number/symbols textstyle design */
+{
+    padding: 15px;
+    font-size: 24px;
+    background-color: #052e5a;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover /* number/symbols button animation design */
+{
+    background-color: #1d4064;
+}
